@@ -1,18 +1,18 @@
 body {
     
-    background-image: url(../IMAGE/images.jpg);
+    background-image: url(../IMAGE/backg3.png);
 }
 .Topnavbar {
-    background-color:rgba(0, 0, 0, 0.76);
+    background-color:orange;
     padding: 23px 20px;
     
 }
 .Topnavbar a {
-    color: chartreuse;
-    font-size: 19px;
+    color: black;
+    font-size: 29px;
     font-family: monospace;
     font-style: italic;
-    margin: 25px 20px;
+    margin: 35px 30px;
 
 }
 .Topnavbar a :hover {
@@ -60,12 +60,22 @@ body {
   .show {display: block;}
 .heading {
     text-align: center;
-    font-size: 26px;
-    color: blue;
+    font-size: 30px;
+    color: white;
 } 
 .heading h1 {
     text-transform: uppercase;
 } 
+.heading h4 {
+  font-size: 36px;
+}
+
+p {
+  color: white;
+  font-size: 48px;
+  font-style: italic;
+  margin-left: 60px;
+}
 .food {
     display: flex;
     flex-direction: row;
@@ -78,10 +88,11 @@ img {
 
 
 footer {
-    background-color: greenyellow;
-    color: white;
+  background-color:lightseagreen;
+    color:black;
     font-size: 30px;
-    border-radius: 10%;
+    
     text-align: center;
+    
 
 }

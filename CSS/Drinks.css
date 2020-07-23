@@ -1,0 +1,53 @@
+body {
+    background-color: lightpink;
+}
+.Topnavbar {
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 23px 20px;
+    
+}
+.Topnavbar a {
+    color: chartreuse;
+    font-size: 19px;
+    font-family: monospace;
+    font-style: italic;
+    margin: 25px 20px;
+
+}
+.Topnavbar a :hover {
+    color: white;
+    padding: 30px 25px;
+}
+.welcome {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    color: rgb(17, 20, 17);
+    margin-left: 45px;
+}
+.drinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  h3 {
+      color: black;
+      text-align: center;
+      background-color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+  }
+  h5 {
+      color:black;
+      font-size: 15px;
+  }
+  footer {
+    background-color: greenyellow;
+    color: blue;
+    font-size: 30px;
+    border-radius: 10%;
+    text-align: center;
+
+}
